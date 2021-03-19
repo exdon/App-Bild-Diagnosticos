@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_menu_lateral"
+    android:fitsSystemWindows="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MeusExamesActivity">
+
+        <include layout="@layout/actionbar"/>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:gravity="top"
+            android:background="@color/whiteColor"
+            tools:context=".DocumentMeusExamesActivity">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageView"
+                android:src="@mipmap/ic_launcher"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/a_title"
+                android:text="Título"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/blackColor"
+                android:gravity="center"
+                android:layout_below="@+id/imageView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/a_description"
+                android:text="Descrição"
+                android:textSize="18sp"
+                android:textColor="@color/lightGrayColor"
+                android:layout_below="@+id/a_title"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HORÁRIO DE ATENDIMENTO"
+            android:id="@+id/titleHA"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingTop="20dp"
+            android:paddingBottom="15dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="@drawable/borda_layout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleTv"
+                android:text="Segunda à Sábado"
+                android:textSize="20sp"
+                android:textColor="@color/blackColor"
+                android:layout_toRightOf="@+id/imageIv"
+                android:layout_toEndOf="@+id/imageIv"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/descriptionTv"
+                android:text="Das 08h às 18h"
+                android:textSize="20sp"
+                android:textColor="@color/lightGrayColor"
+                android:layout_toRightOf="@+id/imageIv"
+                android:layout_toEndOf="@+id/imageIv"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_below="@+id/titleTv"
+                />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EXAMES ATENDIDOS NESSA UNIDADE"
+            android:id="@+id/titleExam"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingTop="20dp"
+            android:paddingBottom="15dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:background="@drawable/borda_layout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleRessonancia"
+                android:text="Ressonância"
+                android:textSize="20sp"
+                android:textColor="@color/titleBlue"
+                android:layout_toRightOf="@+id/imageIv"
+                android:layout_toEndOf="@+id/imageIv"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="25dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:background="@drawable/borda_layout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleMamografia"
+                android:text="Mamografia"
+                android:textSize="20sp"
+                android:textColor="@color/titleBlue"
+                android:layout_toRightOf="@+id/imageIv"
+                android:layout_toEndOf="@+id/imageIv"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="25dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:background="@drawable/borda_layout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleTomografia"
+                android:text="Tomografia"
+                android:textSize="20sp"
+                android:textColor="@color/titleBlue"
+                android:layout_toRightOf="@+id/imageIv"
+                android:layout_toEndOf="@+id/imageIv"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="25dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:background="@drawable/borda_layout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleUltrassom"
+                android:text="Ultrassom"
+                android:textSize="20sp"
+                android:textColor="@color/titleBlue"
+                android:layout_toRightOf="@+id/imageIv"
+                android:layout_toEndOf="@+id/imageIv"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="25dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:background="@drawable/borda_layout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleRaiox"
+                android:text="Raio-x"
+                android:textSize="20sp"
+                android:textColor="@color/titleBlue"
+                android:layout_toRightOf="@+id/imageIv"
+                android:layout_toEndOf="@+id/imageIv"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="25dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:background="@drawable/borda_layout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleDensitometria"
+                android:text="Densitometria"
+                android:textSize="20sp"
+                android:textColor="@color/titleBlue"
+                android:layout_toRightOf="@+id/imageIv"
+                android:layout_toEndOf="@+id/imageIv"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="25dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <!--<include layout="@layout/navigation_menu" />-->
+</androidx.drawerlayout.widget.DrawerLayout>

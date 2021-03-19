@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_menu_lateral"
+    android:fitsSystemWindows="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MenuActivity">
+
+        <include layout="@layout/actionbar"/>
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/logo_horizontal_1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FALE CONOSCO"
+            android:id="@+id/titleFaleConosco"
+            android:textColor="@color/blackColor"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:paddingTop="30dp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="          Estamos disponíveis de\n Segunda à Sábado das 08h às 18h"
+            android:id="@+id/titleInfoHorario"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingTop="15dp"
+            android:paddingBottom="40dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:id="@+id/card_whatsapp"
+            android:background="@drawable/borda_layout"
+            android:foreground="?attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/imageWhatsapp"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:layout_gravity="left"
+                android:src="@drawable/ic_whatsapp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/numberWhatsapp"
+                android:text="19 99800-5464"
+                android:textSize="20sp"
+                android:textColor="@color/titleBlue"
+                android:layout_toRightOf="@+id/imageWhatsapp"
+                android:layout_toEndOf="@+id/imageWhatsapp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="25dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:id="@+id/card_phoneNumber"
+            android:background="@drawable/borda_layout"
+            android:foreground="?attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/imagePhoneNumber"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:layout_gravity="left"
+                android:src="@drawable/ic_phone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/numberPhone"
+                android:text="19 3809-4343"
+                android:textSize="20sp"
+                android:textColor="@color/titleBlue"
+                android:layout_toRightOf="@+id/imagePhoneNumber"
+                android:layout_toEndOf="@+id/imagePhoneNumber"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="25dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:id="@+id/card_email"
+            android:background="@drawable/borda_layout"
+            android:foreground="?attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/imageEmail"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:layout_gravity="left"
+                android:src="@drawable/ic_email" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/emailAddress"
+                android:text="contato@bilddiagnosticos.com.br"
+                android:textSize="18sp"
+                android:textColor="@color/titleBlue"
+                android:layout_toRightOf="@+id/imageEmail"
+                android:layout_toEndOf="@+id/imageEmail"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="25dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:layout_marginBottom="15dp"
+            android:id="@+id/card_presencial"
+            android:background="@drawable/borda_layout"
+            android:foreground="?attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/imagePresencial"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:layout_gravity="left"
+                android:src="@drawable/ic_locala" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/localizacaoFaleConosco"
+                android:text="Como chegar em nossas unidades"
+                android:textSize="18sp"
+                android:textColor="@color/titleBlue"
+                android:layout_toRightOf="@+id/imagePresencial"
+                android:layout_toEndOf="@+id/imagePresencial"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="25dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <!--<include layout="@layout/navigation_menu" />-->
+</androidx.drawerlayout.widget.DrawerLayout>

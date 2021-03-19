@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Bild Diagnósticos</string>
+    <string name="account_name">USUÁRIO</string>
+    <string name="password">SENHA</string>
+    <string name="password_hint">***********</string>
+    <string name="forgot_your_login_info">Esqueceu suas informações de login?</string>
+    <string name="sign_in">ENTRAR</string>
+    <string name="remember_my_password">Lembrar Usuário e Senha</string>
+    <string name="username">Login</string>
+    <string name="first_name">NOME</string>
+    <string name="last_name">SOBRENOME</string>
+    <string name="email">E-MAIL</string>
+    <string name="create_account">CRIAR CONTA</string>
+    <string name="email_hint">test@example.com</string>
+    <string name="reset_password">ENVIAR E-MAIL DE RECUPERAÇÃO</string>
+    <string name="mensagem_login">Faça seu Login</string>
+    <string name="action_buscar">Buscar</string>
+    <string name="action_atualizar">Atualizar</string>
+    <string name="action_adicionar">Adicionar</string>
+    <string name="action_config">Configurações</string>
+    <string name="action_add">Adicionar</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="btn_exames">Exames</string>
+    <string name="btn_agendamento">Agendamentos</string>
+    <string name="btn_contact">Fale Conosco</string>
+    <string name="about_us">Bild</string>
+    <string name="nav_unidades">Unidades</string>
+    <string name="nav_exam">Exames</string>
+    <string name="nav_my_exam">Meus Exames</string>
+    <string name="nav_config">Configurações</string>
+    <string name="API_KEY">AIzaSyCPTrBstsDzwq8k5Sja_sQn93exwwwSQwM</string>
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string-array name="auto_play_entries">
+        <item>@string/wifi_only</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>@string/automatic</item>
+        <item>@string/light</item>
+        <item>@string/dark</item>
+    </string-array>
+    <string-array name="entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="nav_agendamento">Agendamento</string>
+    <string name="nav_fale_conosco">Fale Conosco</string>
+    <string name="nav_logout">Sair</string>
+    <string name="nav_open">Abrir</string>
+    <string name="nav_close">Fechar</string>
+    <string name="nav_home">Home</string>
+    <string name="termo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="desc_bild">A Bild, empresa médica de diagnósticos por imagem, foi fundada por dois médicos que descobriram na sua amizade uma oportunidade de construírem juntos uma vida profissional de grande sucesso.  Os médicos e amigos não tinham a ambição de serem os maiores mas sim os melhores. Acreditam na amizade, no companheirismo e no fazer tudo com carinho e excelência. Para tanto a empresa atraiu e mantém uma equipe que pensa e trabalha da mesma forma.  Atualmente a Bild Diagnósticos possui 5 unidades e está presente em 4 hospitais e um Shopping na Região Metropolitana de Campinas.</string>
+    <string name="password_confirm">CONFIRME SUA SENHA</string>
+    <string name="action_novo">Novo Exame</string>
+    <string name="dataEscolhidHint">DD/MM/YYYY</string>
+    <string name="hintSelect">Selecione uma opção</string>
+    <string name="linkSite">http://www.bilddiagnosticos.com.br</string>
+    <string name="nav_localizacao">Localização</string>
+    <string name="alerts">Alertas</string>
+    <string name="general">Geral</string>
+    <string name="notification">Notificação</string>
+    <string name="dark_theme">Tema Escuro</string>
+    <string name="battery_saver">Modo Economia de Bateria</string>
+    <string name="wifi_only">Wifi Apenas</string>
+    <string name="automatic">Automático</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="update_data">Atualizar Dados</string>
+    <string name="dataNasc_hint">DATA DE NASCIMENTO</string>
+    <string name="cpf_hint">CPF</string>
+    <string name="rg_hint">RG</string>
+    <string name="endereco">ENDEREÇO</string>
+    <string name="nEndereco">NÚMERO</string>
+    <string name="complemento">COMPLEMENTO</string>
+    <string name="bairro">BAIRRO</string>
+    <string name="cidade">CIDADE</string>
+    <string name="estado">ESTADO</string>
+    <string name="cep">CEP</string>
+    <string name="horaEscolhidHint">00:00</string>
+    <string name="update">ALTERAR</string>
+    <string name="delete">CANCELAR</string>
+    <string name="action_versao">Versão do App</string>
+    <string name="versao">Versão 1.0.0</string>
+    <string name="poweredby">Powered By Coffee</string>
+    <string name="telefone_hint">DDD + TELEFONE</string>
+
+</resources>

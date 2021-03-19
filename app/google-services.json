@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "473576291556",
+    "firebase_url": "https://opeauth.firebaseio.com",
+    "project_id": "opeauth",
+    "storage_bucket": "opeauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473576291556:android:b9c6a67501b2c2452800f1",
+        "android_client_info": {
+          "package_name": "br.com.exdon.ope"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473576291556-b621c8q62p80loeqi6828n8d9t298vcj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2amwTWMcwWM_2z9WHyX0rYC5EChq65Eg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473576291556-b621c8q62p80loeqi6828n8d9t298vcj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

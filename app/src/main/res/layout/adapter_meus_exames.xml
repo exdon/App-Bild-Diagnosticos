@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_meusExames"
+    android:layout_margin="6dp"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="2dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Título"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/blackColor"
+            android:id="@+id/card_title"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome Paciente"
+            android:textSize="20sp"
+            android:layout_below="@+id/card_title"
+            android:textColor="@color/blackColor"
+            android:id="@+id/card_nomePaciente"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convênio"
+            android:textSize="20sp"
+            android:layout_below="@+id/card_nomePaciente"
+            android:textColor="@color/blackColor"
+            android:id="@+id/card_convenio"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unidade"
+            android:textSize="20sp"
+            android:layout_below="@+id/card_convenio"
+            android:textColor="@color/blackColor"
+            android:id="@+id/card_unidade"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Exame"
+            android:textSize="20sp"
+            android:layout_below="@+id/card_unidade"
+            android:textColor="@color/blackColor"
+            android:id="@+id/card_dataExame"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Observações"
+            android:textSize="20sp"
+            android:layout_below="@+id/card_dataExame"
+            android:textColor="@color/blackColor"
+            android:id="@+id/card_observacao"/>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

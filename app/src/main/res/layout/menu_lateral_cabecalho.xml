@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@drawable/fachada_bildd"
+    android:layout_gravity="bottom"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:padding="16dp">
+    <!--
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_user"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        android:paddingTop="16dp"
+        />
+    <Button
+        android:id="@+id/btn_img_user"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/btn_rounded"
+        android:layout_marginLeft="1dp"
+        android:drawableRight="@android:drawable/ic_menu_camera"
+        android:paddingTop="50dp"
+        android:layout_marginTop="5dp"
+        />-->
+
+    <TextView
+        android:id="@+id/nameUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome usuário"
+        android:textStyle="bold"
+        android:textColor="#10423c"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="16dp"
+        />
+</RelativeLayout>
